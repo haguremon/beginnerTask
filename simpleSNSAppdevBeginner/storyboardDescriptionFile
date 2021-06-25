@@ -1,0 +1,8 @@
+//画像を表示するので
+
+UIImageViewを使う
+ImageViewのImageで表示したい画像を指定
+//Toolberの追加
+styleをアクションに変更することで
+形状を変更
+

@@ -13,6 +13,7 @@
 		CF312BF52685700F00092D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF312BF32685700F00092D97 /* Main.storyboard */; };
 		CF312BF72685701200092D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF312BF62685701200092D97 /* Assets.xcassets */; };
 		CF312BFA2685701200092D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF312BF82685701200092D97 /* LaunchScreen.storyboard */; };
+		CF312C02268573FE00092D97 /* storyboardDescriptionFile in Resources */ = {isa = PBXBuildFile; fileRef = CF312C01268573FE00092D97 /* storyboardDescriptionFile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CF312BF62685701200092D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF312BF92685701200092D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF312BFB2685701200092D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF312C01268573FE00092D97 /* storyboardDescriptionFile */ = {isa = PBXFileReference; lastKnownFileType = text; path = storyboardDescriptionFile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CF312BEF2685700F00092D97 /* SceneDelegate.swift */,
 				CF312BF12685700F00092D97 /* ViewController.swift */,
 				CF312BF32685700F00092D97 /* Main.storyboard */,
+				CF312C01268573FE00092D97 /* storyboardDescriptionFile */,
 				CF312BF62685701200092D97 /* Assets.xcassets */,
 				CF312BF82685701200092D97 /* LaunchScreen.storyboard */,
 				CF312BFB2685701200092D97 /* Info.plist */,
@@ -126,6 +129,7 @@
 			files = (
 				CF312BFA2685701200092D97 /* LaunchScreen.storyboard in Resources */,
 				CF312BF72685701200092D97 /* Assets.xcassets in Resources */,
+				CF312C02268573FE00092D97 /* storyboardDescriptionFile in Resources */,
 				CF312BF52685700F00092D97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cow.iwaski.simpleSNSAppdevBeginner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = cow.iwaski.simpleSNSAppdevBeginner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
