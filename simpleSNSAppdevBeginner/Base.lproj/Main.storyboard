@@ -27,6 +27,10 @@
                                             <action selector="showActivityView:" destination="BYZ-38-t0r" id="ybS-Sf-t8P"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem systemItem="add" id="lgP-77-y2V"/>
+                                    <barButtonItem width="211" style="plain" systemItem="fixedSpace" id="xtI-K9-qyD"/>
+                                    <barButtonItem systemItem="save" id="Udp-jm-d3c"/>
+                                    <barButtonItem systemItem="cancel" id="AND-Lg-arh"/>
                                 </items>
                             </toolbar>
                         </subviews>
